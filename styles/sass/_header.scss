@@ -2,3 +2,19 @@ header {
     background-color: $headerColour;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    display: flex;
+}
+
+.home {
+    color: $accentColour;
+}
+
+.willow {
+    font-size: 1.4rem;
+}

@@ -252,8 +252,36 @@ body {
   font-size: 1rem;
 }
 
+header {
+  font-family: "Montserrat";
+}
+
 /* Fonts */
 /* Colours */
 header {
   background-color: #345213;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home {
+  color: #e4a436;
+}
+
+.willow {
+  font-size: 1.4rem;
 }
