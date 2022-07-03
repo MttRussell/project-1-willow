@@ -230,17 +230,17 @@ html {
 /* Colours */
 @font-face {
   font-family: "Abril Fatface", "cursive";
-  src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf) format("trueType");
+  src: url("../fonts/Abril_Fatface/AbrilFatface-Regular.ttf") format("trueType");
   font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat", "sans-serif";
-  src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf) format("trueType");
+  src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf") format("trueType");
   font-weight: normal;
 }
 @font-face {
   font-family: "Montserrat", "sans-serif";
-  src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf) format("trueType");
+  src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf") format("trueType");
   font-weight: bold;
 }
 html {
@@ -252,8 +252,8 @@ body {
   font-size: 1rem;
 }
 
-header {
-  font-family: "Montserrat";
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Fonts */
@@ -263,6 +263,7 @@ header {
 }
 
 ul {
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,6 +271,14 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #f6f6f6;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 1px;
 }
 
 div {
@@ -278,10 +287,39 @@ div {
   display: flex;
 }
 
+h1 {
+  color: #f6f6f6;
+  font-size: 80px;
+  font-family: "Abril Fatface", regular;
+  line-height: 92px;
+  letter-spacing: 1px;
+}
+
+.portrait {
+  -webkit-box-shadow: 12px 12px 0 #f6f6f6;
+          box-shadow: 12px 12px 0 #f6f6f6;
+}
+
 .home {
   color: #e4a436;
 }
 
 .willow {
   font-size: 1.4rem;
+  font-family: "Abril Fatface", regular;
+}
+
+button {
+  background-color: #e4a436;
+  border: none;
+  font-family: "Abril Fatface", regular;
+  font-size: 20px;
+  color: #1f1f1f;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+.pages {
+  background-color: #f6f6f6;
 }

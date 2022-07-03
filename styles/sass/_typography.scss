@@ -3,17 +3,17 @@
 
 @font-face {
     font-family: 'Abril Fatface', 'cursive';
-    src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf) format("trueType");
+    src: url('../fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format("trueType");
     font-weight: normal;
 }
 @font-face {
     font-family: 'Montserrat', 'sans-serif';
-    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf) format("trueType");
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf') format("trueType");
     font-weight: normal;
 }
 @font-face {
     font-family: 'Montserrat', 'sans-serif';
-    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf) format("trueType");
+    src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf') format("trueType");
     font-weight: bold;
 }
 
@@ -26,6 +26,6 @@ body {
     font-size: 1rem;
 }
 
-header {
-    font-family: $mainFont;
+body {
+    font-family: 'Montserrat', sans-serif;
 }

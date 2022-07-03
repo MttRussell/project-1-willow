@@ -3,12 +3,37 @@ header {
 }
 
 ul {
+    list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    color: $white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    
 }
 
 div {
     display: flex;
+}
+
+li {
+    
+}
+
+h1 {
+    color: $white;
+    font-size: 80px;
+    font-family: 'Abril Fatface', regular;
+    line-height: 92px;
+    letter-spacing: 1px;
+}
+
+.portrait {
+    box-shadow: 12px 12px 0 $white;
 }
 
 .home {
@@ -17,4 +42,5 @@ div {
 
 .willow {
     font-size: 1.4rem;
+    font-family: 'Abril Fatface', regular;
 }
