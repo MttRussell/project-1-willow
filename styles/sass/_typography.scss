@@ -1,0 +1,27 @@
+@import "variables";
+
+
+@font-face {
+    font-family: 'Abril Fatface', 'cursive';
+    src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf) format("trueType");
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat', 'sans-serif';
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf) format("trueType");
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat', 'sans-serif';
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf) format("trueType");
+    font-weight: bold;
+}
+
+html {
+    font-size: 125%;
+}
+
+body {
+    font-family: $mainFont;
+    font-size: 1rem;
+}
