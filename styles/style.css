@@ -303,12 +303,19 @@ ul {
   top: 20px;
 }
 
+.curvyText {
+  position: relative;
+  top: 150px;
+}
+
 h1 {
   color: #f6f6f6;
   font-size: 80px;
   font-family: "Abril Fatface", regular;
   line-height: 92px;
   letter-spacing: 1px;
+  position: relative;
+  top: 150px;
 }
 
 .portrait {
@@ -317,6 +324,10 @@ h1 {
 }
 
 .home {
+  color: #e4a436;
+}
+
+.contact {
   color: #e4a436;
 }
 
@@ -366,4 +377,13 @@ body {
   width: 50px;
   text-align: center;
   text-decoration: none;
+}
+
+.copyright {
+  background-color: #1f1f1f;
+  text-align: center;
+  color: #f6f6f6;
+  font-family: "Montserrat", regular;
+  line-height: 32px;
+  letter-spacing: 0px;
 }

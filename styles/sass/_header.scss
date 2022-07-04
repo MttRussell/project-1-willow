@@ -32,13 +32,18 @@ ul {
 // // div {
 // //     display: flex;
 // // }
-
+.curvyText{
+    position: relative;
+    top: 150px;
+}
 h1 {
     color: $white;
     font-size: 80px;
     font-family: 'Abril Fatface', regular;
     line-height: 92px;
     letter-spacing: 1px;
+    position: relative;
+    top: 150px;
 }
 
 .portrait {
@@ -46,6 +51,10 @@ h1 {
 }
 
 .home {
+    color: $accentColour;
+}
+
+.contact{
     color: $accentColour;
 }
 
