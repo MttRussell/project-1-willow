@@ -248,7 +248,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat";
+  font-family: "Abril Fatface";
   font-size: 1rem;
 }
 
@@ -262,6 +262,12 @@ header {
   background-color: #345213;
 }
 
+.wrapper {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 ul {
   list-style: none;
   display: -webkit-box;
@@ -271,20 +277,30 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   color: #f6f6f6;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 29px;
   letter-spacing: 1px;
+  padding: 20px;
 }
 
-div {
+.headerImageContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  top: 20px;
 }
 
 h1 {
@@ -305,7 +321,7 @@ h1 {
 }
 
 .willow {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-family: "Abril Fatface", regular;
 }
 
@@ -322,4 +338,12 @@ button {
 
 .pages {
   background-color: #f6f6f6;
+}
+
+body {
+  font-family: "Montserrat", regular;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 0px;
 }
