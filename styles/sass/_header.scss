@@ -1,7 +1,12 @@
 header {
     background-color: $headerColour;
     padding-bottom: 110px;
-    box-sizing: border-box;
+    position: relative;
+    bottom: 15px;
+
+}
+nav {
+    padding-top: 10px;
 }
 .wrapper {
     max-width: 1260px;

@@ -7,12 +7,11 @@
     margin-bottom: 90px;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 p {
-    font-family: 'Montserrat', regular;
+    font-family: $otherFont;
     text-align: center;
     line-height: 32px;
     letter-spacing: 0px;
@@ -36,7 +35,7 @@ right: 250px;
 }
 .favText {
     position: relative;
-    left: 50px;
+    left: 60px;
 }
 .bucketWrapper {
     width: 50%;
@@ -52,6 +51,11 @@ background: $shadowColour;
 padding-right: 250px;
 position: relative;
 left: 25px;
+}
+.yellowJacket {
+    box-shadow: 12px 12px 0 $shadowColour;
+    position: relative;
+    bottom: 50px;
 }
 
 .gallery {
@@ -74,7 +78,38 @@ justify-content: space-between;
     float: left;
 }
 
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $accentColour;
+    float: left;
+    align-items: center;    
+}
 
+.leftContent {
+    float: left;
+    width: 50%;
+}
+.rightContent {
+    float: left;
+    width: 50%;
+}
+
+h5 {
+    font-family: 'Abril Fatface' regular;
+    font-size: 42px;
+    color: $black;
+}
+.willowsButton{
+    position: relative;
+    bottom: 10px;
+}
 h6 {
     font-family: 'Abril Fatface', regular;
     font-size: 32px;
