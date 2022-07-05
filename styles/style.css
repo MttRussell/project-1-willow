@@ -260,6 +260,7 @@ body {
 /* Colours */
 header {
   background-color: #345213;
+  padding-bottom: 110px;
 }
 
 .wrapper {
@@ -289,6 +290,16 @@ ul {
   padding: 20px;
 }
 
+a:link {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+
 .headerImageContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -301,11 +312,26 @@ ul {
       -ms-flex-pack: end;
           justify-content: flex-end;
   top: 20px;
+  height: 500px;
+}
+
+.portraitWrapper {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35%;
+          flex: 0 0 35%;
+}
+
+.titleWrapper {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 65%;
+          flex: 0 0 65%;
 }
 
 .curvyText {
   position: relative;
-  top: 150px;
+  top: 165px;
+  right: 25px;
 }
 
 h1 {
@@ -315,7 +341,7 @@ h1 {
   line-height: 92px;
   letter-spacing: 1px;
   position: relative;
-  top: 150px;
+  left: 160px;
 }
 
 .portrait {
@@ -359,6 +385,12 @@ body {
   letter-spacing: 0px;
 }
 
+.whosWillow {
+  background-color: #f6f6f6;
+  padding-top: 100px;
+  padding-bottom: 125px;
+}
+
 .favouriteThings {
   margin-bottom: 90px;
   display: -webkit-box;
@@ -369,6 +401,33 @@ body {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.bridge {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.favouriteWrapper {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.gallery {
+  padding: 30px;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.willowsJourney {
+  background-color: #f6f6f6;
 }
 
 .fa {
