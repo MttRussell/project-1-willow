@@ -23,8 +23,11 @@ p {
     float: left;
 }
 .waterfall {
-    box-shadow: 12px 12px 0 $shadowColour;
-    background-color: $shadowColour;
+box-shadow: 12px 12px 0 $shadowColour;
+background-color: $shadowColour;
+padding-left: 250px;
+position: relative;
+right: 250px;
 }
 .favouriteWrapper {
     width: 50%;
@@ -42,6 +45,13 @@ p {
 .flowerWrapper {
     width: 50%;
     float: left;
+}
+.floral {
+    box-shadow: 15px 20px 0 $shadowColour;
+background: $shadowColour;
+padding-right: 250px;
+position: relative;
+left: 25px;
 }
 
 .gallery {
