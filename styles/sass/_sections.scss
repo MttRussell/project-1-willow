@@ -11,11 +11,37 @@
     
 }
 
+p {
+    font-family: 'Montserrat', regular;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
 .bridge {
-    flex: 0 0 50%;
+    width: 50%;
+    float: left;
+}
+.waterfall {
+    box-shadow: 12px 12px 0 $shadowColour;
+    background-color: $shadowColour;
 }
 .favouriteWrapper {
-    flex: 0 0 50%;
+    width: 50%;
+    float: left;
+
+}
+.favText {
+    position: relative;
+    left: 50px;
+}
+.bucketWrapper {
+    width: 50%;
+    float: left;
+}
+.flowerWrapper {
+    width: 50%;
+    float: left;
 }
 
 .gallery {
@@ -27,4 +53,21 @@ justify-content: space-between;
 
 .willowsJourney {
     background-color: $white;
+}
+
+.raincoatWrapper {
+    width: 50%;
+    float: left;
+}
+.journeyWrapper {
+    width: 50%;
+    float: left;
+}
+
+
+h6 {
+    font-family: 'Abril Fatface', regular;
+    font-size: 32px;
+    color: $black;
+    letter-spacing: 1px;
 }
